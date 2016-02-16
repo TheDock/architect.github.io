@@ -1,0 +1,554 @@
+/*===================================================================
+bordo per debugging
+===================================================================*/
+
+// .columns, .column {
+//     border: 1px solid green;
+// }
+
+// del {
+//     color: red;
+// }
+/*===================================================================
+logo - cards
+===================================================================*/
+
+.img-logo {
+    width: 180px;
+    margin-top: 5px;
+    @media #{$small-only} {
+        width:160px;
+        margin-top: 0px;
+        margin-left: -4px;
+    }
+}
+
+.img-cards {
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+}
+/*===================================================================
+margini per allineare le aside e i button
+===================================================================*/
+
+.extra-space-hero {
+    margin-top: 1rem;
+}
+.extra-space {
+    margin-top: 2rem;
+}
+.extra-space-modal {
+    margin-top: 3rem;
+}
+.extra-space-footer {
+    margin-top: 4rem;
+}
+.extra-space-image-tab-home {
+    margin-top: 0.5rem;
+    @media #{$small-only} {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+.extra-space-image-tab-contatti {
+    margin-top: 3.9rem;
+    @media #{$small-only} {
+        margin-top: 1rem;
+    }
+}
+.extra-space-text-tab-contatti {
+    margin-top: 0.35rem;
+    @media #{$small-only} {
+        margin-top: 1rem;
+    }
+}
+.extra-space-video {
+    margin-top: 0.35rem;
+    @media #{$small-only} {
+        margin-top: 1rem;
+    }
+}
+.extra-space-aside-tab-immagini {
+    margin-top: 1.25rem;
+}
+.extra-space-aside-video {
+    margin-top: 1.45rem;
+}
+.extra-space-aside-tab-chi-siamo {
+    margin-top: -0.15rem;
+}
+.extra-space-aside-tab-menu {
+    margin-top: 3.8rem;
+}
+.extra-space-blog {
+    margin-top: 1rem;
+    @media #{$small-only} {
+        margin-top: .5rem;
+    }
+}
+.extra-space-aside {
+    margin-top: 2.8rem;
+}
+/*the following control extra margin for blog articles and menu products detail*/
+.extra-margin-first-paragraph-blog {
+    margin-top: 0.8rem;
+}
+.extra-space-button {
+    margin-top: 0.5rem;
+}
+.extra-space-from-tabs {
+    margin-top: 0.8rem;
+    @media #{$small-only} {
+        margin-top: 0.6rem; 
+    }
+}
+.no-margin-list-bullet {
+    margin-top:-1.1rem;
+}
+.no-margin-inline-list {
+    margin-left:-22px;
+}
+.menu-subheader {
+    margin-top:-0.7rem;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    @media #{$small-only} {
+        font-size: 1.35rem;
+        margin-top:-0.4rem;
+        line-height: 1.4rem;
+    }
+}
+
+/*===================================================================
+homepage
+===================================================================*/
+
+// .panel-home {
+//     margin-bottom: 0;
+//     padding-top: 5rem;
+//     padding-bottom: 5rem;
+//     background-color: $home-header-bg;
+//     @media #{$small-only} {
+//         margin-bottom: 0;
+//         padding-top: 2rem;
+//         padding-bottom: 3rem;
+//     }
+//     h1 {
+//         color: white;
+//     }   
+// }
+.panel-home-n {
+    margin-bottom: 0;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    background-color: $white;
+    @media #{$small-only} {
+        margin-bottom: 0;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+    }
+}
+.panel-home-2n {
+    margin-bottom: 0;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    background-color: $panel-2n-bg;
+    @media #{$small-only} {
+        margin-bottom: 0;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+    }
+}
+.text-highlight {
+    background-color: rgba($white, 0.75);
+}
+.homepage-hero {
+    background: url('http://www.thedock.it/asset/img/large/background-home.jpg') no-repeat center center;
+    background-size: cover;
+    height: 80%;
+    overflow: hidden;
+    h1 {
+        color: navbar-color;
+        font-size: 4rem;
+        font-weight: 500;
+        line-height: 4.8rem;
+        text-align: center;
+        margin-top: 10rem;
+        @media #{$small-only} {
+            font-size: 2rem;
+            line-height: 3rem;
+            margin-top: 2rem;
+        }
+    }
+}
+
+/*===================================================================
+Chi Siamo
+===================================================================*/
+
+// .panel-chi-0 {
+//     margin-bottom: 0;
+//     padding-top: 0.5rem;
+//     padding-bottom: 4rem;
+//     background-color: $white;
+//     @media #{$small-only} {
+//         margin-bottom: 0;
+//         padding-top: 0rem;
+//         padding-bottom: 3rem;
+//     }
+// }
+.by-line-chi-siamo {
+    font-style: italic;
+    font-size: 0.8rem;
+    line-height: 0.5rem;
+    padding-bottom: 1rem;
+    line-height: 1.4rem;
+}
+.extra-space-recensione {
+    margin-top: 2.5rem;
+}
+
+.panel-border {
+    border: 1px solid;
+    border-color: scale-color($panel-bg, $lightness: $panel-function-factor);
+}
+
+/*===================================================================
+menupage text
+===================================================================*/
+
+#menupage-text {
+    /*padding:0 2rem;*/
+    h1 {
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+        margin-top: 0.5rem;
+        text-align: center;
+        &:first-child {
+            margin-top: 1.5rem;
+        }
+        @media #{$small-only} {
+            margin-bottom: 1.2rem;
+            margin-top: 1.5rem;
+            text-align: left;
+        }
+    }
+     h2 {
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+        margin-top: 0.5rem;
+        text-align: center;
+        line-height: 1.6rem;
+        &:first-child {
+            margin-top: 1.5rem;
+        }
+        @media #{$small-only} {
+            font-size: 1.35em;
+            margin-bottom: 1.2rem;
+            margin-top: 1.5rem;
+            text-align: left;
+        }
+    }
+    h3 {
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin-bottom: 0;
+        margin-top: 0;
+        @media #{$small-only} {
+            font-size: 1rem;
+        }
+    }
+    h4 {
+        font-size: 1.125rem;
+        margin-top: 1rem;
+        margin-bottom: 1.25rem;
+    }
+    h5 {
+        font-size: 1.15rem;
+    }
+    h6 {
+        font-size: 1rem;
+    }
+    p {
+        font-size: 0.9rem;
+        margin-bottom: 0.5rem;
+    }
+}
+
+.panel-menu-n {
+    margin-bottom: 0;
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+    background-color: $white;
+    @media #{$small-only} {
+        margin-bottom: 0;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+}
+.panel-menu-2n {
+    margin-bottom: 0;
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+    background-color: $panel-2n-bg;
+    @media #{$small-only} {
+        margin-bottom: 0;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        }
+}
+
+/*===================================================================
+team detail page
+===================================================================*/
+
+#image-background-team { 
+    position: relative;
+    margin-bottom: 2rem;
+    width: 100%; /* for IE 6 */
+    @media #{$small-only} {
+        margin-bottom: 1.5rem;
+    }
+    .user-image { 
+        border: 10px solid white;
+        position: absolute; 
+        width: 20%; 
+        top: 70%;
+        left: 0%;
+        @media #{$small-only} {
+            width: 30%; 
+            top: 65%;
+        }
+    }
+}
+
+/*===================================================================
+footer header style
+===================================================================*/
+
+.panel-prefooter {
+    margin-bottom: 0;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    background-color: $footer-background-color;
+    @media #{$small-only} {
+        margin-bottom: 0;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+    }
+}
+.panel-footer {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    background-color: $footer-background-color;
+    p {
+        font-size: 1rem;
+        @media #{$small-only} {
+        font-size: 0.83rem;
+        }
+    }
+}
+.panel-hr {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    background-color: $footer-background-color;
+    hr { 
+        margin-bottom: 0;
+        margin-top: 0;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+        border-color: $white;
+    }
+}
+.navbar-footer-font {
+    font-size: 0.9375rem;
+    line-height: 2.2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    a {
+        color: $topbar-menu-link-color;
+    }
+    a:hover {
+        color: scale-color($topbar-menu-link-color, $lightness: 30%);
+    }
+}
+
+ul .icon-font-style {
+    font-size: 3rem;
+}
+.block-grid-cards-3 {
+    @include block-grid(
+    // This controls how many elements will be on each row of the block grid. Set this to whatever number you need, up to the max allowed in the variable.
+    // Available options: 1-12 by default, and false.
+    $per-row: 3,
+
+    // This controls how much space is between each item in the block grid.
+    // Use a variable or any pixel or em values.
+    $spacing: rem-calc(10),
+
+    // This controls whether or not base styles come through, set to false to leave out.
+    $base-style: true
+  );
+}
+.block-grid-social-3 {
+    @include block-grid(
+    // This controls how many elements will be on each row of the block grid. Set this to whatever number you need, up to the max allowed in the variable.
+    // Available options: 1-12 by default, and false.
+    $per-row: 3,
+
+    // This controls how much space is between each item in the block grid.
+    // Use a variable or any pixel or em values.
+    $spacing: rem-calc(30),
+
+    // This controls whether or not base styles come through, set to false to leave out.
+    $base-style: true
+  );
+}
+
+.fi-social:hover {
+  fill: scale-color($primary-color, $lightness: -14%); 
+}
+
+.fi-social:visited {
+  fill: $primary-color; 
+}
+
+.fi-telephone {
+    font-size: 1rem;
+        @media #{$small-only} {
+        font-size: 1rem;
+    }
+}
+.fi-social-facebook {
+    color: #3b5998;
+}
+.fi-social-twitter {
+    color: #5fa9dd;
+}
+.fi-social-google-plus {
+    color: #dd4b39;
+}
+
+/*===================================================================
+blog style
+===================================================================*/
+
+.by-line {
+    font-style: italic;
+}
+.first-paragraph {
+    margin-top: 1.5rem;
+}
+.share-block {
+    border-top: 1px solid $gainsboro;
+    border-bottom: 1px solid $gainsboro;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.image-hero {
+    margin: 0 0 2rem;
+}
+.image-hero-index {
+    margin: 0 0 1rem;
+    @media #{$small-only} {
+        margin-top: 2rem;
+        margin-bottom: 0.5rem;
+    }
+
+}
+
+// .sub-nav {
+//     dt {
+//          margin-bottom: 0.5rem;
+//     }
+
+//     dd {
+//         margin-bottom: 0.75rem;
+//     }
+// }
+/*===================================================================
+eventi
+===================================================================*/
+
+.date {
+    text-transform: uppercase;
+}
+i {
+    font-size: 1.4em;
+    padding-right: .3em;
+}
+/*margini eventi */
+.extra-space-image-event {
+    margin-top: 0.95rem;
+    margin-bottom: 0.5rem;
+    @media #{$small-only} {
+        margin-top: 0.6rem;
+        margin-bottom: 0.9rem;
+    }
+}
+.extra-space-image-event-blog {
+    margin-top: 0.3rem;
+    margin-bottom: 0.5rem;
+    @media #{$small-only} {
+        margin-top: 0.3rem;
+        margin-bottom: 0.5rem;
+    }
+}
+.extra-space-date-aside {
+    margin-top: 0.65rem;
+}
+.extra-space-share-icon {
+    margin-top: -0.8rem;
+    @media #{$small-only} {
+        margin-top: 0rem;
+    }
+}
+.extra-space-commenti {
+    margin-top: 1rem;
+    @media #{$small-only} {
+        margin-top: 0rem;
+    }
+}
+/*===================================================================
+footer
+===================================================================*/
+
+@mixin vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.footer {
+  text-align: center;
+
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  .links a {
+    list-style: none;
+    color: $topbar-menu-link-color;
+    font-size: 0.9375rem;
+    line-height: 3rem;
+    padding: 0rem 0 0rem;
+    margin: 0;
+    &::after {
+      content: "•";
+      padding: 0 0.4rem 0 0.8rem;
+    }
+    &:last-child::after {
+      content: "";
+      padding: 0 0.4rem 0 0.8rem;
+    }
+    a:hover {
+        color: scale-color($topbar-menu-link-color, $lightness: 30%);
+    }
+  }
+}
+
+
+
