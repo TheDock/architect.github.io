@@ -118,6 +118,7 @@ $white       : #FFFFFF;
 
 // We use these as default colors throughout
 // $primary-color: #008CBA;
+$primary-color: #222;
 // $secondary-color: #e7e7e7;
 // $alert-color: #f04124;
 // $success-color: #43AC6A;
@@ -1449,15 +1450,16 @@ $topbar-link-bg-active-hover: none;
 
 // Style the top bar dropdown elements
 // $topbar-dropdown-bg: $oil;
-$topbar-dropdown-bg: $topbar-bg-color;
+$topbar-dropdown-bg: rgb(100,100,100);
 // $topbar-dropdown-link-color: $white;
 // $topbar-dropdown-link-color-hover: $topbar-link-color-hover;
 // $topbar-dropdown-link-bg: $oil;
-$topbar-dropdown-link-bg: $topbar-bg-color;
+$topbar-dropdown-link-bg: rgb(23,56,78);
 // $topbar-dropdown-link-bg-hover: $jet;
 // $topbar-dropdown-link-weight: $font-weight-normal;
 // $topbar-dropdown-toggle-size: 5px;
 // $topbar-dropdown-toggle-color: $white;
+$topbar-dropdown-toggle-color: rgb(100,100,100);
 // $topbar-dropdown-toggle-alpha: .4;
 
 // $topbar-dropdown-label-color: $monsoon;
@@ -1472,6 +1474,7 @@ $topbar-dropdown-label-color: $topbar-bg-color;
 // $topbar-menu-link-font-size: rem-calc(13);
 // $topbar-menu-link-weight: $font-weight-bold;
 // $topbar-menu-link-color: $white;
+$topbar-menu-link-color: rgb(100,100,100);
 // $topbar-menu-icon-color: $white;
 // $topbar-menu-link-color-toggled: $jumbo;
 // $topbar-menu-icon-color-toggled: $jumbo;
