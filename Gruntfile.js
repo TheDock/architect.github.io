@@ -115,6 +115,7 @@ module.exports = function(grunt) {
             },
             options: {
                 server: {
+                    watchTask: true,
                     baseDir: "./"
                 }
             }
