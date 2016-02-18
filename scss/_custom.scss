@@ -14,14 +14,10 @@ logo - cards
 ===================================================================*/
 
 .img-logo {
-    width: 83px;
-    height: 83px;
-    margin-left: -28px;
-    margin-top: -6px;
-    @media #{$small-only} {
-        width:83px;
-        height:83px;
-    }
+    left: 0px;
+  top: 0px;
+  max-width: 82px;
+  position: absolute;
 }
 
 .img-cards {
