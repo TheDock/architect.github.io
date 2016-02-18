@@ -104,6 +104,20 @@ module.exports = function(grunt) {
                 files: 'scss/**/*.scss',
                 tasks: ['sass']
             }
+        },
+
+        browserSync: {
+            bsFiles: {
+                src : [
+                    'css/*.css',
+                    '*.html'
+                ]
+            },
+            options: {
+                server: {
+                    baseDir: "./"
+                }
+            }
         }
     });
 
@@ -115,7 +129,8 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-grunticon');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-uncss');
+    grunt.loadNpmTasks('grunt-browser-sync');
 
     grunt.registerTask('build', ['sass']);
-    grunt.registerTask('default', ['build', 'watch', 'concat', 'uglify', 'uncss', 'grunticon:myIcons', 'sitemap']);
+    grunt.registerTask('default', ['build', 'watch', 'browserSync', 'concat', 'uglify', 'uncss', 'grunticon:myIcons', 'sitemap']);
 }

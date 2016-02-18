@@ -16,6 +16,7 @@
     "grunt-grunticon": "~2.1.6",
     "grunt-sitemap": "~1.2.1",
     "slick-carousel": "~1.5.9",
-    "package.json": "0.0.0"
+    "package.json": "0.0.0",
+    "grunt-browser-sync": "~2.2.0"
   }
 }

@@ -1462,7 +1462,7 @@ $topbar-dropdown-link-bg: $link-color;
 // $topbar-dropdown-link-weight: $font-weight-normal;
 // $topbar-dropdown-toggle-size: 5px;
 // $topbar-dropdown-toggle-color: $white;
-$topbar-dropdown-toggle-color: rgb(100,100,100);
+$topbar-dropdown-toggle-color: $gray-color;
 // $topbar-dropdown-toggle-alpha: .4;
 
 // $topbar-dropdown-label-color: $monsoon;
@@ -1481,6 +1481,7 @@ $topbar-menu-link-color: $link-color;
 // $topbar-menu-icon-color: $white;
 // $topbar-menu-link-color-toggled: $jumbo;
 // $topbar-menu-icon-color-toggled: $jumbo;
+$topbar-menu-icon-color-toggled: $white;
 // $topbar-menu-icon-position: $opposite-direction; // Change to $default-float for a left menu icon
 
 // Transitions and breakpoint styles
@@ -1494,8 +1495,9 @@ $topbar-menu-link-color: $link-color;
 
 // Divider Styles
 // $topbar-divider-border-bottom: solid 1px scale-color($topbar-bg-color, $lightness: 13%);
+$topbar-divider-border-bottom: solid 0px scale-color($topbar-bg-color, $lightness: 13%);
 // $topbar-divider-border-top: solid 1px scale-color($topbar-bg-color, $lightness: -50%);
-$topbar-divider-border-top: solid 0.5px scale-color($gray-color, $lightness: 100%);
+$topbar-divider-border-top: solid 0.5px scale-color($gray-color, $lightness: 20%);
 // Sticky Class
 // $topbar-sticky-class: ".sticky";
 // $topbar-arrows: true; //Set false to remove the triangle icon from the menu item
