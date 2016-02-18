@@ -1477,7 +1477,7 @@ $topbar-dropdown-label-color: $topbar-bg-color;
 // $topbar-menu-link-font-size: rem-calc(13);
 // $topbar-menu-link-weight: $font-weight-bold;
 // $topbar-menu-link-color: $white;
-$topbar-menu-link-color: rgb(100,100,100);
+$topbar-menu-link-color: $link-color;
 // $topbar-menu-icon-color: $white;
 // $topbar-menu-link-color-toggled: $jumbo;
 // $topbar-menu-icon-color-toggled: $jumbo;
@@ -1494,8 +1494,9 @@ $topbar-menu-link-color: rgb(100,100,100);
 
 // Divider Styles
 // $topbar-divider-border-bottom: solid 1px scale-color($topbar-bg-color, $lightness: 13%);
+$topbar-divider-border-bottom:$white;
 // $topbar-divider-border-top: solid 1px scale-color($topbar-bg-color, $lightness: -50%);
-
+$topbar-divider-border-top:$white;
 // Sticky Class
 // $topbar-sticky-class: ".sticky";
 // $topbar-arrows: true; //Set false to remove the triangle icon from the menu item
