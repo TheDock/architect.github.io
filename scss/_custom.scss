@@ -15,9 +15,9 @@ logo - cards
 
 .img-logo {
     width: 180px;
-    margin-top: 5px;
+    margin-top: 0px;
     @media #{$small-only} {
-        width:160px;
+        width:40px;
         margin-top: 0px;
         margin-left: -4px;
     }
