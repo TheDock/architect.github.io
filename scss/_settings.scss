@@ -118,7 +118,7 @@ $white       : #FFFFFF;
 
 // We use these as default colors throughout
 // $primary-color: #008CBA;
-$primary-color: #222;
+$primary-color: #222222;
 // $secondary-color: #e7e7e7;
 // $alert-color: #f04124;
 // $success-color: #43AC6A;
@@ -1405,10 +1405,12 @@ $primary-color: #222;
 // $include-html-top-bar-classes: $include-html-classes;
 
 // Background color for the top bar
+$gray-color: rgb(150,150,150);
+$link-color: rgb(222,222,222);
 // $topbar-bg-color: $oil;
-$topbar-bg-color: rgba(0,0,0,0);
+$topbar-bg-color: $gray-color;
 // $topbar-bg: $topbar-bg-color;
-$topbar-bg: rgba(0,0,0,0.5);
+$topbar-bg: $gray-color;
 
 // Height and margin
 // $topbar-height: rem-calc(45);
@@ -1421,12 +1423,13 @@ $topbar-height: rem-calc(55);
 
 // Set the link colors and styles for top-level nav
 // $topbar-link-color: $white;
+$topbar-link-color: $link-color;
 // $topbar-link-color-hover: $white;
 $topbar-link-color-hover: $white;
 // $topbar-link-color-active: $white;
 $topbar-link-color-active: $white;
 // $topbar-link-color-active-hover: $white;
-$topbar-link-color-active-hover: rgb(200,200,200);
+$topbar-link-color-active-hover: $white;
 // $topbar-link-weight: $font-weight-normal;
 // $topbar-link-font-size: rem-calc(13);
 // $topbar-link-hover-lightness: -10%; // Darken by 10%
@@ -1435,7 +1438,7 @@ $topbar-link-bg: none;
 // $topbar-link-bg-hover: $jet;
 $topbar-link-bg-hover: none;
 // $topbar-link-bg-color-hover: $charcoal;
-$topbar-link-bg-color-hover: rgb(23,56,78);
+$topbar-link-bg-color-hover: none;
 // $topbar-link-bg-active: $primary-color;
 $topbar-link-bg-active: none;
 // $topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%);
@@ -1450,11 +1453,11 @@ $topbar-link-bg-active-hover: none;
 
 // Style the top bar dropdown elements
 // $topbar-dropdown-bg: $oil;
-$topbar-dropdown-bg: rgb(100,100,100);
+$topbar-dropdown-bg: $gray-color;
 // $topbar-dropdown-link-color: $white;
 // $topbar-dropdown-link-color-hover: $topbar-link-color-hover;
 // $topbar-dropdown-link-bg: $oil;
-$topbar-dropdown-link-bg: rgb(23,56,78);
+$topbar-dropdown-link-bg: $link-color;
 // $topbar-dropdown-link-bg-hover: $jet;
 // $topbar-dropdown-link-weight: $font-weight-normal;
 // $topbar-dropdown-toggle-size: 5px;
