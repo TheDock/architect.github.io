@@ -125,9 +125,13 @@ $primary-color: #222222;
 // $warning-color: #f08a24;
 // $info-color: #a0d3e8;
 
+$gray-color: #a2a2a2;
+$link-color: #666666;
+
 // We use these to control various global styles
 // $body-bg: $white;
 // $body-font-color: $jet;
+$body-font-color:$gray-color;
 // $body-font-family: $font-family-sans-serif;
 // $body-font-weight: $font-weight-normal;
 // $body-font-style: normal;
@@ -216,6 +220,7 @@ $primary-color: #222222;
 // $header-font-weight: $font-weight-normal;
 // $header-font-style: normal;
 // $header-font-color: $jet;
+$header-font-color: $link-color;
 // $header-line-height: 1.4;
 // $header-top-margin: .2rem;
 // $header-bottom-margin: .5rem;
@@ -1406,8 +1411,6 @@ $button-bg-color: rgb(255, 109, 58);
 // $include-html-top-bar-classes: $include-html-classes;
 
 // Background color for the top bar
-$gray-color: #a2a2a2;
-$link-color: #666666;
 // $topbar-bg-color: $oil;
 $topbar-bg-color: $gray-color;
 // $topbar-bg: $topbar-bg-color;
