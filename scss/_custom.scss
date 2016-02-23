@@ -22,6 +22,14 @@ homepage
             margin-top: 2rem;
         }
     }
+    p {
+        font-size: 1.125rem;
+        color: white;
+        text-align: center;
+        @media #{$small-only} {
+            font-size: 1rem;
+        }
+    }
 }
 
 .img-logo {
