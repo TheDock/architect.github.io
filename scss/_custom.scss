@@ -23,11 +23,11 @@ homepage
         }
     }
     p {
-        font-size: 1.125rem;
+        font-size: 1.5rem;
         color: white;
         text-align: center;
         @media #{$small-only} {
-            font-size: 1rem;
+            font-size: 1.125rem;
         }
     }
 }
