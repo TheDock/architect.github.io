@@ -70,10 +70,12 @@ margini per allineare le aside e i button
         &::after {
             content: "";
             padding: 0 0.5rem;
+            margin:0;
         }
         &:last-child::after {
             content: "";
-            padding: 0 0.4rem 0 0.8rem;
+            padding: 0;
+            margin:0;
         }
     }
 }
@@ -88,4 +90,5 @@ margini per allineare le aside e i button
 
 i {
     font-style: normal;
+    padding:0;
 }
