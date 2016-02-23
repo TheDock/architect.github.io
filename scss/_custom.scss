@@ -5,7 +5,7 @@ homepage
     background-color: rgba($black, 0.25);
 }
 .homepage-hero {
-    background: url('http://www.arkitect.it/asset/img/large/background-home.jpg') no-repeat center center;
+    background: url('https://placeimg.com/1920/1080/arch') no-repeat center center;
     background-size: cover;
     height: 90%;
     overflow: hidden;
@@ -31,6 +31,9 @@ homepage
     position: absolute;
 }
 
+.extra-space-button {
+    margin-top: 0.5rem;
+}
 
 /*===================================================================
 margini per allineare le aside e i button
