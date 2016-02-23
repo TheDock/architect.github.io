@@ -65,11 +65,11 @@ margini per allineare le aside e i button
         :hover {
             color: $topbar-link-color-hover;
         }
-        padding: 2rem 0 2rem;
+        padding: 0rem 0rem;
         margin: 0;
         &::after {
-            content: " ";
-            padding: 0 0.4rem 0 0.8rem;
+            content: "";
+            padding: 0 0.5rem;
         }
         &:last-child::after {
             content: "";
