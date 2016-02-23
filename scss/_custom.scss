@@ -121,3 +121,62 @@ margini per allineare le aside e i button
         line-height: 1.4rem;
     }
 }
+
+
+/*===================================================================
+margini per allineare le aside e i button
+===================================================================*/
+@mixin vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.footer {
+  background-color: $gray-color;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 2rem;
+  p {
+    &.slogan {
+      font-size: 1.8rem;
+      color:$link-color;
+      margin: 0 0 0.5rem;
+    }
+    &.copywrite {
+
+      font-size: 0.875rem;
+      margin: 0;
+    }
+  }
+  .links a {
+    list-style: none;
+    color: $link-color;
+    :hover{
+        color:$topbar-link-color-hover;
+    }
+    padding: 2rem 0 2rem;
+    margin: 0;
+    &::after {
+      content: " ";
+      padding: 0 0.4rem 0 0.8rem;
+    }
+    &:last-child::after {
+      content: "";
+      padding: 0 0.4rem 0 0.8rem;
+    }
+  }
+}
+.social-icon {
+    padding:0 1rem;
+    fill: $link-color;
+    :hover {
+        fill: $topbar-link-color-hover;
+    }
+}
+
+i{
+    font-style: normal;
+}

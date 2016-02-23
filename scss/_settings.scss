@@ -151,6 +151,7 @@ $body-font-color:$link-color;
 
 // We use these to control inset shadow shiny edges and depressions.
 // $shiny-edge-size: 0 1px 0;
+$shiny-edge-size: 0 0px 0;
 // $shiny-edge-color: rgba($white, .5);
 // $shiny-edge-active-color: rgba($black, .2);
 
@@ -257,6 +258,7 @@ $header-font-color: $link-color;
 // $paragraph-font-family: inherit;
 // $paragraph-font-weight: $font-weight-normal;
 // $paragraph-font-size: 1rem;
+$paragraph-font-size: 1.125rem;
 // $paragraph-line-height: 1.6;
 // $paragraph-margin-bottom: rem-calc(20);
 // $paragraph-aside-font-size: rem-calc(14);
@@ -474,7 +476,7 @@ $header-font-color: $link-color;
 // $button-border-width: 0;
 // $button-border-style: solid;
 // $button-bg-color: $primary-color;
-$button-bg-color: rgb(255, 109, 58);
+$button-bg-color: $gray-color;
 // $button-bg-hover: scale-color($button-bg-color, $lightness: $button-function-factor);
 // $button-border-color: $button-bg-hover;
 // $secondary-button-bg-hover: scale-color($secondary-color, $lightness: $button-function-factor);
