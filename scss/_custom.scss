@@ -61,9 +61,9 @@ margini per allineare le aside e i button
 }
 
 .progetti-space {
-    margin-top: 1rem;
+    margin-top: 2rem;
     @media #{$small-only} {
-        margin-top: 0.5rem;
+        margin-top: 1rem;
         margin-bottom: 0rem;
     }
 }
