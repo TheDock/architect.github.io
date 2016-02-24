@@ -60,6 +60,11 @@ margini per allineare le aside e i button
     }
 }
 
+.image-space {
+    margin-top: 1.75rem;
+    margin-bottom:2rem;
+}
+
 /*===================================================================
 footer
 ===================================================================*/
@@ -122,4 +127,6 @@ i {
     padding-right:0.3rem;
 }
 
-
+h1 {
+    text-transform: uppercase;
+}
