@@ -118,7 +118,7 @@ $white       : #FFFFFF;
 
 // We use these as default colors throughout
 // $primary-color: #008CBA;
-$primary-color: #222222;
+$primary-color: #666666;
 // $secondary-color: #e7e7e7;
 // $alert-color: #f04124;
 // $success-color: #43AC6A;
@@ -131,7 +131,7 @@ $link-color: #666666;
 // We use these to control various global styles
 // $body-bg: $white;
 // $body-font-color: $jet;
-$body-font-color:$link-color;
+$body-font-color:#666666;
 // $body-font-family: $font-family-sans-serif;
 // $body-font-weight: $font-weight-normal;
 // $body-font-style: normal;
@@ -1002,6 +1002,7 @@ $button-bg-color: $gray-color;
 // We use these to control the background and border styles
 // $panel-bg: scale-color($white, $lightness: -5%);
 // $panel-border-style: solid;
+$panel-border-style: none;
 // $panel-border-size: 1px;
 // $callout-panel-bg: scale-color($primary-color, $lightness: 94%);
 
@@ -1011,9 +1012,11 @@ $button-bg-color: $gray-color;
 // We use these to set default inner padding and bottom margin
 // $panel-margin-bottom: rem-calc(20);
 // $panel-padding: rem-calc(20);
+$panel-padding: rem-calc(10);
 
 // We use these to set default font colors
 // $panel-font-color: $oil;
+$panel-font-color: #666666;
 // $panel-font-color-alt: $white;
 
 // $panel-header-adjust: true;
