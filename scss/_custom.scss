@@ -63,8 +63,8 @@ margini per allineare le aside e i button
 .button-space {
     margin-top: 0rem;
     @media #{$small-only} {
-        margin-top: 1rem;
-        margin-bottom: 2rem;
+        margin-top: 0rem;
+        margin-bottom: 3rem;
     }
 }
 
