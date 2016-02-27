@@ -118,7 +118,7 @@ $white       : #FFFFFF;
 
 // We use these as default colors throughout
 // $primary-color: #008CBA;
-$primary-color: #a2a2a2;
+$primary-color: #666666;
 // $secondary-color: #e7e7e7;
 // $alert-color: #f04124;
 // $success-color: #43AC6A;
@@ -282,7 +282,7 @@ $paragraph-font-size: 1.125rem;
 // $anchor-font-color: $primary-color;
 $anchor-font-color: $link-color;
 // $anchor-font-color-hover: scale-color($anchor-font-color, $lightness: -14%);
-$anchor-font-color-hover: scale-color($anchor-font-color, $lightness: -44%);
+$anchor-font-color-hover: scale-color($anchor-font-color, $lightness: -84%);
 
 // We use these to style the <hr> element
 // $hr-border-width: 1px;
